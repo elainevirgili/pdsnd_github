@@ -21,4 +21,6 @@ The following files are part of this project:
   * washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+The database for the project was provided by [Motivate](www.motivateco.com).
+
+The project requirements were defined by ![Udacity](https://www.udacity.com/).
