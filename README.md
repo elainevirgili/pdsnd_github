@@ -14,6 +14,10 @@ This project aims to uncover bikeshare usage patterns using data provided by [Mo
 Please open the :snake: file bikeshare_virgili_final.py and answer the questions - what city to check, monthly or daily.
 Finally it is possible to display raw data by answering the questions or quit the programm.
 
+### Required software
+Python is required to run the programm.
+A text editor (e.g. Sublime or Atom) is recommended.
+
 ### Files used
 The following files are part of this project:
 
@@ -31,4 +35,4 @@ The database for the project was provided by [Motivate](www.motivateco.com).
 The project requirements were defined by ![Udacity](https://seeklogo.com/images/U/udacity-logo-6B6DDD1421-seeklogo.com.png)
 
 ### Licence
-License details pending. 
+License details pending.
