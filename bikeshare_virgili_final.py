@@ -135,9 +135,9 @@ def time_stats(df):
     popular_hour = df["hour"].mode()[0]
 
     print("\nTime statistics: \n")
-    print("The most common travel month is {}.".format(popular_month))
-    print("The most common weekday is {}.".format(popular_weekday))
-    print("The most common start hour is {}.".format(popular_hour))
+    print("The most common travel month is {}.\nThe most common weekday is {}.\n\
+The most common start hour is {}.".format(popular_month,popular_weekday,\
+popular_hour))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
 
@@ -162,9 +162,9 @@ at " + df["End Station"]
     popular_comb = df["station_comb"].mode()[0]
 
     print("\nStation statistics: \n")
-    print("The most commonly used start station is {}.".format(popular_startst))
-    print("The most commonly used end station is {}.".format(popular_endst))
-    print("The most frequent start/end combination is {}.".format(popular_comb))
+    print("The most commonly used start station is {}.\nThe most commonly used\
+end station is {}.\nThe most frequent start/end combination is {}.".format\
+(popular_startst,popular_endst,popular_comb))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
 
@@ -215,9 +215,9 @@ def user_stats(df, city):
         recent_birthyear = int(df["Birth Year"].max())
         most_common_birthyear = int(df["Birth Year"].mode()[0])
         print("The gender counting results are: \n{}.\n".format([gender_types]))
-        print("The earliest birthyear is {}.".format(earliest_birthyear))
-        print("The most recent birthyear is {}.".format(recent_birthyear))
-        print("The most common birthyear is {}.".format(most_common_birthyear))
+        print("The earliest birthyear is {}.\nThe most recent birthyear is {}.\n\
+The most common birthyear is {}.".format(earliest_birthyear,recent_birthyear,\
+most_common_birthyear))
 
     else:
         print("Gender and birthyear information are not available for Washington")
