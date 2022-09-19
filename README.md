@@ -7,7 +7,7 @@ Project created on September 15th, 2022
 Explore US Bikeshare Data :bike:
 
 ### Description
-This project aims to uncover bikeshare usage patterns using data provided by [Motivate](www.motivateco.com), which is a bikeshare system provider for major cities in the USA.
+This project aims to uncover bikeshare usage patterns using data provided by [Motivate](www.motivateco.com), which is a bikeshare system provider for major cities in the USA. Database is available for Washington, New York City and Chicago.
 
 
 ### Usage
