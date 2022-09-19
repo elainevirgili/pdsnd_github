@@ -9,9 +9,12 @@ Replace the Project Title
 ### Description
 Describe what your project is about and what it does
 
+### Required software
+Python is required to run the programm.
+A text editor (e.g. Sublime or Atom) is recommended. 
+
 ### Files used
 Include the files used
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
