@@ -213,9 +213,9 @@ def user_stats(df, city):
         recent_birthyear = int(df["Birth Year"].max())
         most_common_birthyear = int(df["Birth Year"].mode()[0])
         print("The gender counting results are: \n{}.\n".format([gender_types]))
-        print("The earliest birthyear is {}.".format(earliest_birthyear))
-        print("The most recent birthyear is {}.".format(recent_birthyear))
-        print("The most common birthyear is {}.".format(most_common_birthyear))
+        print("The earliest birthyear is {}.\nThe most recent birthyear is {}.\n\
+The most common birthyear is {}.".format(earliest_birthyear,recent_birthyear,\
+most_common_birthyear))
 
     else:
         print("Gender and birthyear information are not available for Washington")
