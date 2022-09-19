@@ -160,9 +160,9 @@ at " + df["End Station"]
     popular_comb = df["station_comb"].mode()[0]
 
     print("\nStation statistics: \n")
-    print("The most commonly used start station is {}.".format(popular_startst))
-    print("The most commonly used end station is {}.".format(popular_endst))
-    print("The most frequent start/end combination is {}.".format(popular_comb))
+    print("The most commonly used start station is {}.\nThe most commonly used\
+end station is {}.\nThe most frequent start/end combination is {}.".format\
+(popular_startst,popular_endst,popular_comb))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
 
