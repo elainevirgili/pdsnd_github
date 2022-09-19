@@ -4,13 +4,21 @@
 Project created on September 15th, 2022
 
 ### Project Title
-Explore US Bikeshare Data
+Explore US Bikeshare Data :bike:
 
 ### Description
-Describe what your project is about and what it does
+This project aims to uncover bikeshare usage patterns using data provided by [Motivate](www.motivateco.com), which is a bikeshare system provider for major cities in the USA.
 
 ### Files used
-Include the files used
+The following files are part of this project:
+
+* Code:
+  * bikeshare_virgili_final.py
+
+* Data files:
+  * chicago.csv
+  * new_york_city.csv
+  * washington.csv
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
