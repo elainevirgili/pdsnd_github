@@ -29,3 +29,6 @@ The following files are part of this project:
 The database for the project was provided by [Motivate](www.motivateco.com).
 
 The project requirements were defined by ![Udacity](https://seeklogo.com/images/U/udacity-logo-6B6DDD1421-seeklogo.com.png)
+
+### Licence
+License details pending. 
