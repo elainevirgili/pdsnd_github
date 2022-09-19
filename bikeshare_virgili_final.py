@@ -133,9 +133,9 @@ def time_stats(df):
     popular_hour = df["hour"].mode()[0]
 
     print("\nTime statistics: \n")
-    print("The most common travel month is {}.".format(popular_month))
-    print("The most common weekday is {}.".format(popular_weekday))
-    print("The most common start hour is {}.".format(popular_hour))
+    print("The most common travel month is {}.\nThe most common weekday is {}.\n\
+The most common start hour is {}.".format(popular_month,popular_weekday,\
+popular_hour))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
 
